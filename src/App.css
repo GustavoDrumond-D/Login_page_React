@@ -1,42 +1,19 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* Define estilos globais para todos os elementos da página */
+* {
+  margin: 0; /* Remove as margens padrão de todos os elementos */
+  padding: 0; /* Remove os preenchimentos padrão de todos os elementos */
+  box-sizing: border-box; /* Inclui bordas e preenchimentos no tamanho total dos elementos */
+  font-family: 'Helvetica'; /* Define a fonte padrão como Helvetica */
+  text-shadow: #000 1px 1px; /* Adiciona uma sombra preta ao texto, deslocada 1px horizontal e verticalmente */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+/* Estiliza o container principal com a classe .App */
+.App {
+  display: flex; /* Ativa o layout flexível para organizar os filhos */
+  justify-content: center; /* Centraliza os filhos horizontalmente */
+  align-items: center; /* Centraliza os filhos verticalmente */
+  min-height: 100vh; /* Garante que o container ocupe no mínimo 100% da altura da janela */
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+  background-size: cover; /* Ajusta a imagem de fundo para cobrir todo o container */
+  background-position: center; /* Centraliza a imagem de fundo horizontalmente e verticalmente */
 }

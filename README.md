@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 ### Instalando dependências
 
 Instale os pacotes do **Node** com `npm install` ou `npm i`
+Instale os pacotes do **React Icons** com `npm i @react-icons/all-files react-icons`
 
 
 ### Execute o projeto
